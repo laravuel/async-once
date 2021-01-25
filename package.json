@@ -1,11 +1,19 @@
 {
-  "name": "async-once",
+  "name": "wl-async-once",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "无限次调用异步函数，只执行一次，并且以promise形式返回执行结果",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "wallboy",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laravuel/async-once.git"
+  },
+  "author": "laravuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laravuel/async-once/issues"
+  },
+  "homepage": "https://github.com/laravuel/async-once#readme"
 }
